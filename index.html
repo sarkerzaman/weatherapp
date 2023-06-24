@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find Weather Information</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mb-5">Find Your Location's Weather Information</h1>
+    <form id="weatherForm">
+      <div class="form-group">
+        <input type="text" class="form-control" id="location" placeholder="Enter city name or zip code" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Get Current Weather Information</button>
+    </form>
+    <div id="weatherResult" class="mt-4"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

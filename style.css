@@ -1,0 +1,16 @@
+body{
+    background-image: url("./images/weather_bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    max-width: 800px;
+    margin: 100px auto 50px;
+  }
+  
+  #weatherResult {
+    display: none;
+  }
+  
